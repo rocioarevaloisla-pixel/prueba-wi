@@ -12,16 +12,8 @@ body {
             flex-wrap: wrap;
             justify-content: center;
         }
-        .card {
-            text-align: justify;
-            background-color: #e68ec0;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 5px;
-            width: 40%;
-        }
         .card.extendida {
-            text-align: justify;
+            text-align: center;
             background-color: #e68ec0;
             padding: 20px;
             margin: 10px;
