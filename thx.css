@@ -20,3 +20,17 @@ body {
             border-radius: 5px;
             width: 86.3%;
         }
+        .back-button {
+            width: 100%;
+            padding: 10px;
+            background: #d673c4;
+            color: #000000;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .back-button:hover {
+            background: #d65fc6;
+        }
