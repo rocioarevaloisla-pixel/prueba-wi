@@ -1,0 +1,30 @@
+body {
+            font-family: 'Georgia', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .cards {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            text-align: justify;
+            background-color: #e68ec0;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            width: 40%;
+        }
+        .card.extendida {
+            text-align: justify;
+            background-color: #e68ec0;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            width: 86.3%;
+        }
