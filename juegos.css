@@ -47,8 +47,8 @@ header {
 
 .games-grid {
     display: flex;
-    flex-wrap: wrap;       /* permite que las tarjetas bajen a la siguiente línea */
-    justify-content: center; /* centra horizontalmente las tarjetas */
+    flex-wrap: wrap;       
+    justify-content: center; 
     gap: 20px;
 }
 
@@ -107,9 +107,9 @@ header {
     background: #148f3d;
 }
 .contact-form {
-    display: flex;              /* flex en lugar de grid */
-    flex-direction: column;     /* elementos en columna */
-    align-items: center;        /* centra horizontalmente */
+    display: flex;             
+    flex-direction: column;     
+    align-items: center;        
     gap: 15px;
     margin-top: 40px;
 }
