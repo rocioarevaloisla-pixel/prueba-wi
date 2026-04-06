@@ -1,4 +1,6 @@
-body {
+        body {
+            background-color: #2F0B01;
+            color: #c7d5e0;
             font-family: 'Georgia', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         .container {
@@ -14,7 +16,7 @@ body {
         }
         .card.extendida {
             text-align: center;
-            background-color: #e68ec0;
+            background-color: #c53f3f;
             padding: 20px;
             margin: 10px;
             border-radius: 5px;
@@ -23,7 +25,7 @@ body {
         .back-button {
             width: 100%;
             padding: 10px;
-            background: #d673c4;
+            background: #dd5d61;
             color: #000000;
             border: none;
             border-radius: 3px;
@@ -32,5 +34,5 @@ body {
         }
 
         .back-button:hover {
-            background: #d65fc6;
+            background: #9e1616;
         }
