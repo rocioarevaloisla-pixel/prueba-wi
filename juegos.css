@@ -5,9 +5,9 @@
 }
 
 body {
-    background: #0c0c0d;
+    background: #2F0B01;
     color: #c7d5e0;
-    font-family: Arial, sans-serif;
+    font-family: Audiowide, sans-serif;
 }
 
 header {
@@ -26,7 +26,8 @@ header {
 }
 
 .section-title {
-    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
     margin: 30px 0 15px 0;
     color: #fff;
 }
@@ -53,7 +54,7 @@ header {
 }
 
 .game-card {
-    background: #1a2332;
+    background: #4C251B;
     border-radius: 5px;
     overflow: hidden;
     transition: transform 0.2s;
@@ -62,6 +63,14 @@ header {
 
 .game-card:hover {
     transform: scale(1.05);
+}
+
+.game-image {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-bottom: 2px solid #3a4a54;
+    display: flex;
 }
 
 .game-image {
