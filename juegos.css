@@ -11,12 +11,12 @@ body {
 }
 
 header {
-    background: #1b2838;
+    background: #b81616c5;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #3a4a54;
+    border-bottom: 1px solid #3c1e1e;
 }
 
 .container {
@@ -96,7 +96,7 @@ header {
 .game-button {
     width: 100%;
     padding: 10px;
-    background: #1aa74e;
+    background: #d35d2a;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -105,7 +105,7 @@ header {
 }
 
 .game-button:hover {
-    background: #148f3d;
+    background: #dc9129;
 }
 .contact-form {
     display: flex;             
@@ -127,7 +127,7 @@ header {
 
 .contact-form button {
     padding: 10px 20px;
-    background: #1aa74e;
+    background: #d47d30e1;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -136,5 +136,12 @@ header {
 }
 
 .contact-form button:hover {
-    background: #148f3d;
+    background: #e04c1f;
+}
+footer {
+    background-color: #82260b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
 }
