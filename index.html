@@ -56,16 +56,33 @@
             </div>
 
         </div>
+         <div class="formulario">
+    <form id="formularioContacto" class="contact-form" action="thx.html" method="GET">
+    <h2 class="section-title">Formulario de contacto</h2>
 
-         <h2 class="section-title">Formulario de contacto</h2>
-         <form class="contact-form" action="thx.html" method="POST">
-            <input type="text" name="nombre" placeholder="Nombre (min. 2 caracteres)" required minlength="2">
-            <input type="text" name="apellido" placeholder="Apellido (min. 2 caracteres)" required minlength="2">
-            <input type="email" name="email" placeholder="Correo electrónico" required>
-            <textarea name="mensaje" placeholder="Escribe tu mensaje... (min. 10 caracteres)" required minlength="10"></textarea>
-            <a href="thx.html"><button type="button">Enviar</button></a>
+    <div>
+        <input type="text" name="nombre" placeholder="Nombre" required minlength="2">
+        <div id="errorNombre" class="error-message"></div>
+    </div>
 
-        </form>
+    <div>
+        <input type="text" name="apellido" placeholder="Apellido" required minlength="2">
+        <div id="errorApellido" class="error-message"></div>
+    </div>
+
+    <div>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <div id="errorEmail" class="error-message"></div>
+    </div>
+
+    <div>
+        <textarea name="mensaje" placeholder="Escribe tu mensaje..." required minlength="5"></textarea>
+        <div id="errorMensaje" class="error-message"></div>
+    </div>
+
+    <button type="submit">Enviar</button>
+</form>
+    </div>
 </body>
 <footer>
         <p>&copy; 2026 Estación Arcade. Todos los derechos reservados.</p>
