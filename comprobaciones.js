@@ -75,10 +75,9 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!valido) {
             return;
         }
-
-        // Redirigir a thx.html
+        
         window.location.href = 'thx.html';
-    });
+    }); 
 
     form.addEventListener('input', function (event) {
         const elemento = event.target;
